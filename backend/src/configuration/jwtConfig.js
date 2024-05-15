@@ -1,7 +1,7 @@
 const crypto = require("crypto");
 
-const secretKay = crypto.randomBytes(32).toString("hex");
+const secretKey = crypto.randomBytes(32).toString("hex");
 
 module.exports = {
-  secretKay: secretKay,
+  secretKey: secretKey,
 };
